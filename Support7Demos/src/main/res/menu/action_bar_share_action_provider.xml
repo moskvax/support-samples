@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
+<!-- Copyright (C) 2015 Google Inc.
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,14 +13,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
 
-<resources>
-    <drawable name="blue">#770000ff</drawable>
-    <color name="card_yellow">#FCF0AD</color>
-    <color name="card_aquatic">#FCF0AD</color>
-    <color name="card_classic">#BAB7A9</color>
-    <color name="card_sunbrite">#F9D6AC</color>
-    <color name="card_tropical">#56C4E8</color>
+    <item android:id="@+id/menu_item_share_provider_action_bar"
+        android:title="@string/action_bar_share"
+        app:showAsAction="ifRoom"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
 
-    <color name="drawer_sample_metal_blue">#FF505080</color>
-</resources>
+</menu>

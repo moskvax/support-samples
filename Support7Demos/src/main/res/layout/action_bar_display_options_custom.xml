@@ -14,7 +14,4 @@
      limitations under the License.
 -->
 <Button xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:text="@string/display_options_custom_button"
-    tools:ignore="AndroidDomInspection"
-    />
+        android:text="@string/display_options_custom_button" />
